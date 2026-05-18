@@ -11,7 +11,7 @@ public class HelloController {
     public Map<String, String> hello() {
         return Map.of(
             "status", "ok",
-            "message", "Hello from Spring Boot on AWS Fargate",
+            "message", "Hello from Spring Boot on AWS Fargate - v2",
             "service", "springboot-app"
         );
     }
